@@ -1,7 +1,7 @@
 # Full-Stack RAG Application (FastAPI + React)
 
 A production-ready Retrieval-Augmented Generation (RAG) system. This project allows users to upload PDF documents, process and embed their contents securely using ChromaDB, and interact with the knowledge base via a streaming, AI-powered chat interface.
-
+ 
 The application is built with a decoupled architecture: a blazing-fast **FastAPI backend** handling the AI orchestration and vector database, and a highly responsive **React (Vite) frontend** for the user interface.
 
 ## 🌟 Features
