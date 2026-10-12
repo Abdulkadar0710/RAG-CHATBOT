@@ -5,7 +5,7 @@ const ChatWindow = ({ documentId }) => {
   const [messages, setMessages] = useState([]);
   const [loading, setLoading] = useState(false);
 
-  const handleSend = async () => {
+  const handleSend = async () => { 
     if (!query.trim()) return;
     
     const userMsg = { role: 'user', content: query };

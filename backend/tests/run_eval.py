@@ -2,7 +2,7 @@ import requests
 import json
 import time
 
-API_URL = "http://localhost:8000/api/chat"
+API_URL = "http://localhost:8000/api/chat" 
 
 test_queries = [
     # 1. Broad factual query

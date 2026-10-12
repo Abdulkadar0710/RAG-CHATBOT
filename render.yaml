@@ -1,6 +1,6 @@
 services:
   # -------------------------------------
-  # 1. FastAPI Backend (Docker Service)
+  # 1. FastAPI Backend (Docker Service) 
   # -------------------------------------
   - type: web
     name: rag-backend
